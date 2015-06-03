@@ -19,7 +19,7 @@ function getTodayDateForCalendar(calendar) {
 
 function sanitizeTitle(title) {
   var sanitized_title = '';
-  var safe_title_prefixes = ['breakfast', 'lunch', 'dinner', 'task', 'email', 'personal', 'gym', 'flying', 'dns', 'commute'];
+  var safe_title_prefixes = ['breakfast', 'lunch', 'dinner', 'team dinner', 'task', 'email', 'personal', 'gym', 'flying', 'dns', 'commute'];
   
   for (var i = 0; i < safe_title_prefixes.length; i++) {
     if (title.indexOf(safe_title_prefixes[i]) == 0) {
